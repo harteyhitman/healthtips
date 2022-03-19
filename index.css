@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    font-size: 14px;
+    
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1400px;
+    background-color: white;
+    text-align: center;
+    padding: 0px 0px;
+    /* margin: 120px; */
+    border: none lightgray 2px;
+    border-radius: none;
+    /* margin-top: 2px; */
+    padding-right: 10px;
+    box-shadow: inset 10px;
+    display: block;
+    margin:  0 auto;
+}
+.banner-haa-img{
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.diabetes-woman{
+    max-width: 100%;
+}
+/* @media only screen and(max-width: 768px){
+    .banner-haa-img img{
+        min-width: 100%;
+    }
+} */
+
+.diabetes-woman h1{
+    font-size: 3.0em;
+}
+@media only screen and(max-width: 768px){
+    .diabetes-woman img{
+        width: 510px;
+        margin: auto;
+    }
+    
+}
+.woman-header{
+    justify-items: start;   
+}
+.woman-header h3{
+    font-size: large;
+    color: green;
+}
+.woman-header p{
+    font-style: italic;
+    font-size: large;
+}
+.third-section{
+    font-family: sans-serif;
+    text-align: start;
+    font-size: 1.2em;
+}
+.third-section p{
+    font-family: sans-serif;
+    font-stretch: expanded;
+    line-height: 3.7;
+    font-style: normal;
+    font-weight: 400;
+    padding: 50px 50px;
+    margin: 20px 20px;
+}
+.third-section h3{
+    padding-left: 70px;
+}
+.third-section b{
+    text-align: start;
+}
+.video{
+    color: blue;
+}
+.click-here-button{
+    margin-top: 10px;
+    padding-top: 5px;
+}    
+.click-here-button{
+    max-width: 100%;
+    text-align: center;
+}
+.button button{
+    padding: 20px 20px;
+    margin: 40px 50px;
+    background-color: skyblue;
+    color: white;
+    border: solid 5px skyblue;
+    size: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+#footer{
+    margin-top: 5px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: medium;
+    color: black;
+}
